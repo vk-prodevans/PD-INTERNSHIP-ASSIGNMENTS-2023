@@ -1,1 +1,32 @@
-
+h1{
+    display: flex;
+    justify-content: center;
+}
+#assignment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.artist {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    background-color:whitesmoke;
+}
+.artist img {
+    max-width: 100%;
+    height: auto;
+}
+h2{
+    color: rgb(82, 14, 239);
+}
+p{
+    color:green;
+}
+@media (max-width: 768px) {
+    .artist {
+        width: 100%;
+    }
+}
